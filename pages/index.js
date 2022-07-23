@@ -1,11 +1,14 @@
-import { Heading } from "@chakra-ui/react";
+import { Container } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
-const Home = () => {
+// Main content place with all major content
+
+const CheatSheet = () => {
   return (
     <div>
-      <Heading as='h2' size='2xl'>I'm a Heading</Heading>
+      
     </div>
   );
 };
 
-export default Home;
+export default CheatSheet;

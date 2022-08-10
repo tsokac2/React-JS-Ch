@@ -18,6 +18,7 @@ const Layout = (props) => {
         >
 
         <MainNavigation />
+        
       </Container>
 
     </VStack>

@@ -1,15 +1,30 @@
-import { Box } from '@chakra-ui/react';
-
+import { Box, Flex, Spacer } from '@chakra-ui/react';
+import { Stack, HStack, VStack } from "@chakra-ui/react";
+import { Container } from '@chakra-ui/react'
 import MainNavigation from "./MainNavigation";
 
 
 // main layout componet, use SASS and Chakrea UI to modifi the main wrapre layout
 const Layout = (props) => {
   return (
-    <div>
-      <MainNavigation />
-      <main>{props.children}</main>
-    </div>
+
+
+    <VStack>
+      <Container 
+        maxW='1200px' 
+        bg='blue.600' 
+        w={["100vw", "100vw", "100vw", "90vw"]}
+        direction={["column", "column", "row", "row"]}
+        p="0"
+        >
+
+        <MainNavigation />
+        
+      </Container>
+
+    </VStack>
+
+
   );
 };
 

@@ -1,6 +1,6 @@
-import { Box, Flex, Spacer } from '@chakra-ui/react';
-import { Stack, HStack, VStack } from "@chakra-ui/react";
+import { VStack } from "@chakra-ui/react";
 import { Container } from '@chakra-ui/react'
+import Intro from "./Intro";
 import MainNavigation from "./MainNavigation";
 
 
@@ -11,13 +11,15 @@ const Layout = (props) => {
 
     <VStack>
       <Container 
-        maxW='1200px' 
+        maxW='1200px'
+        p="0" 
         bg='blue.600' color='white' 
         w={["100vw", "100vw", "100vw", "90vw"]}
         direction={["column", "column", "row", "row"]}
         >
 
         <MainNavigation />
+        <Intro />
         
       </Container>
 

@@ -1,7 +1,7 @@
 import "../styles/index.css";
 import * as React from "react";
 import { ChakraProvider } from "@chakra-ui/react";
-import Layout from "../components/layout/Layout";
+import Layout from "../components/Layout/Layout";
 
 function CheatApp({ Component, pageProps }) {
   return (

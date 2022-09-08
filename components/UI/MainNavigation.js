@@ -1,14 +1,13 @@
 import { Link } from "@chakra-ui/react";
 import { Center, Circle } from "@chakra-ui/react";
-import { Container } from "@chakra-ui/react";
 import { Box, Flex, Spacer, ButtonGroup } from "@chakra-ui/react";
-import { Grid, GridItem } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
-import { SiLinkedin, SiGithub } from "react-icons/si";
+import { SiLinkedin} from "react-icons/si";
 
 const MainNavigation = (props) => {
   return (
     <Flex minWidth='max-content' alignItems='center' >
+
       <Box p='0' bg="red" w='100%'>
 
         <Center bg='green.500'>
@@ -34,6 +33,8 @@ const MainNavigation = (props) => {
           </Link>
         </Circle>
       </ButtonGroup>
+
+      
     </Flex>
 
   );

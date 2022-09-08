@@ -11,7 +11,7 @@ const Layout = (props) => {
   return (
     <VStack>
       <Container 
-        maxW='1200px'
+        maxW='1400px'
         p="0"
         bg='blue.600' color='white' 
         w={["100vw", "100vw", "100vw", "90vw"]}

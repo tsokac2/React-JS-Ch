@@ -24,11 +24,9 @@ const Card = (props) => {
           <Box h="100%" py={0} bg="red.400">
 
          
-              <Center h={["2rem", "2rem"]} px={2} py={2} w="100%">
-                <Heading as="h3" size="1xl" className="mline">
-                  Componets Componets Componets
-                </Heading>
-              </Center>
+              <Box h={["2rem", "2rem"]} px={2} py={2} w="100%">
+                <h1 className="mline">Componets Componets Componets</h1>
+              </Box>
             
 
 

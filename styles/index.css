@@ -15,7 +15,8 @@ body {
 
 .mline {
   color: black;
-  white-space: nowrap; }
+  white-space: nowrap;
+  overflow: hidden; }
 
 .mline::after {
   margin-left: 25px;

@@ -10,5 +10,21 @@ body {
 .content-text {
   color: black; }
 
+.border-top {
+  border-top: 1px solid black; }
+
+.mline {
+  color: black;
+  white-space: nowrap; }
+
+.mline::after {
+  margin-left: 25px;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 1px;
+  background: black; }
+
 .font {
   font-family: 'Lato', sans-serif; }

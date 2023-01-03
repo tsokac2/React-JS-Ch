@@ -3,10 +3,9 @@ import { Container } from '@chakra-ui/react'
 import Card from "../CheatContent/Card";
 import Intro from "../CheatContent/Intro";
 import MainNavigation from "../UI/MainNavigation";
-import CardWrap from "./CardWrap";
 
 
-// main layout componet, use SASS and Chakrea UI to modifi the main wrapre layout
+// main layout componet, use SASS and Chakrea UI to modifiy the main wraper layout
 const Layout = (props) => {
   return (
     <VStack>

@@ -20,7 +20,7 @@ body {
 
 .card-heading::after {
   margin-left: 25px;
-  content: '';
+  content: "";
   display: inline-block;
   vertical-align: middle;
   width: 100%;

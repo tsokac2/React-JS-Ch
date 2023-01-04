@@ -1,10 +1,7 @@
 import {
   Box,
   VStack,
-  HStack,
-  Heading,
-  Flex,
-  Center,
+ Button,
   Text,
   Code,
   Link,
@@ -19,21 +16,18 @@ const Card = (props) => {
 
       {/* box 1 - will be render from the server */}
 
-      <Box w="100%" py="2" bg="black">
+      <Box w="100%" pt={3} bg="black">
         <VStack spacing={4} align="stretch">
           <Box h="100%" py={0} bg="red.400">
 
          
-              <Box h={["2rem", "2rem"]} px={2} py={2} w="100%">
-                <h1 className="mline">Componets Componets Componets</h1>
+              <Box px={2} py={0} w="100%" bg="red.200">
+                <h1 className="card-heading" as="h3" size="1xl">Componets Componets Componetss</h1>
               </Box>
-            
+          
 
 
-           
-
-
-            <Box h="4rem" w="100%" mt=".5rem" bg="lightblue" color={"#000"}>
+            <Box h="4rem" py={2} w="100%" bg="lightblue" color={"#000"}>
               {/* code block */}
               <Code>
                 const myApp = (props) => <br />
@@ -42,7 +36,7 @@ const Card = (props) => {
               </Code>
             </Box>
 
-            <Box w="100%" borderTop="1px" borderColor="gray.200">
+            <Box w="100%" py={1}  borderTop="1px" borderColor="blue.400">
               Run on{" "}
               <Link
                 className="font"
@@ -73,62 +67,8 @@ const Card = (props) => {
 
 
 
-      {/* box 2  - will be render from the server */}
-      <Box w="100%" py="2" bg="black">
-        <VStack spacing={4} align="stretch">
-          <Box h="100%" py={0} bg="red.400">
-            <Flex minWidth="max-content" alignItems="center" bg="#fff">
-              <Center h={["2rem", "2rem"]} px={2} py={2} bg="gray.300">
-                <Heading as="h3" size="1xl">
-                  Componets
-                </Heading>
-              </Center>
 
-              <Center
-                h={["2rem", "2rem"]}
-                w="100%"
-                px={2}
-                py={2}
-                bg="green.500"
-              >
-                <Box h="1px" w="100%" mt="2px" bg="red.400"></Box>
-              </Center>
-            </Flex>
 
-            <Box h="4rem" w="100%" mt=".5rem" bg="#FFF">
-              <p className="content-text">main componet content</p>
-            </Box>
-          </Box>
-        </VStack>
-      </Box>
-
-      {/* box 3 - will be render from the server */}
-
-      <Box w="100%" py="2" bg="black">
-        <VStack spacing={4} align="stretch">
-          <Box h="100%" py={0} bg="red.400">
-            <Flex minWidth="max-content" alignItems="center" bg="#fff">
-              <Center h={["2rem", "2rem"]} px={2} py={2} bg="gray.300">
-                <Heading as="h3" size="1xl">
-                  Componets
-                </Heading>
-              </Center>
-              <Center
-                h={["2rem", "2rem"]}
-                w="100%"
-                px={2}
-                py={2}
-                bg="green.500"
-              >
-                <Box h="1px" w="100%" mt="2px" bg="red.400"></Box>
-              </Center>
-            </Flex>
-            <Box h="4rem" w="100%" mt=".5rem" bg="#FFF">
-              <p className="content-text">main componet content</p>
-            </Box>
-          </Box>
-        </VStack>
-      </Box>
     </CardWrap>
   );
 };

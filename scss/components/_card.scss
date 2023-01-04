@@ -2,15 +2,15 @@
     border-top: 1px solid black;
 }
 
-.mline{
-    
-    color: black;
+.card-heading{
     white-space: nowrap;
     overflow: hidden;
+    background-color: plum;
+
 
 }
 
-.mline::after {
+.card-heading::after {
     margin-left: 25px;
     content: '';
     display: inline-block;

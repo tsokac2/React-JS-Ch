@@ -6,6 +6,7 @@ import { SiLinkedin } from "react-icons/si";
 
 const MainNavigation = (props) => {
   return (
+    
     <Flex minWidth="max-content" alignItems="center">
       <Box p="0" bg="red" w="100%">
         <Center bg="green.500">
